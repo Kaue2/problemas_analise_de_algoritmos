@@ -1,0 +1,9 @@
+* algoritmo de fibonacci
+	* recursivo
+	* top-down
+	* bottom-up
+
+* maior subsequência crescente - LIS (longest increasing subsequence)
+	* recursivo
+	* top-down
+	* bottom-up

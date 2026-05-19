@@ -1,0 +1,9 @@
+* bubble sort
+* insertion sort
+* selection sort
+* shell sort
+* quick sort
+* merge sort
+* heap sort
+* radix sort
+* bucket sort

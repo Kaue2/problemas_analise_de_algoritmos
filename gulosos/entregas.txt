@@ -1,0 +1,6 @@
+* problema do troco
+* mochila fracionária
+* o salto do sapo
+* abastecimento de veículo na viagem
+* problema da seleção de atividades
+* algoritmo de huffman
