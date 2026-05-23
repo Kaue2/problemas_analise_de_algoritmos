@@ -2,7 +2,7 @@
 #include "troco.h"
 
 void troco(int *moedas, int n, int valor) {
-  int soma;
+  int soma = 0;
   int i = n - 1;
 
   while (i >= 0 && soma != valor) {

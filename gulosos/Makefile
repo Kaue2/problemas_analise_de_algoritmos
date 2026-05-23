@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
 TARGET = versao_c_out/main
-SRCS = versao_c/main.c versao_c/troco.c
+SRCS = versao_c/main.c versao_c/troco.c versao_c/mochila.c
 
 all: $(TARGET)
 
