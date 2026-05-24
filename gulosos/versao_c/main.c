@@ -1,6 +1,9 @@
+#include <stdio.h>
 #include "troco.h"
 #include "mochila.h"
-#include <stdio.h>
+#include "sapo.h"
+#include "caminhoneiro.h"
+#include "atividades.h"
 
 int main(void) {
   int vec[3] = {1, 2, 5};
@@ -15,6 +18,21 @@ int main(void) {
   for (int i = 0; i < 8; i++) {
     printf("%f ", resultado[i]);
   }
+  printf("\n");
+
+  int posicoes[8] = {1,2,3,4,5,6,7,8};
+  int salto = 1;
+  sapo(posicoes, 8, salto);
+
+  int postos[] = {0, 50, 90, 150, 180, 240, 290};
+  int n_postos = 7; 
+  int autonomia = 100; 
+  caminhoneiro(postos, n_postos, autonomia);
+
+  int s[] = {1, 3, 0, 5, 8, 5};
+  int t[] = {2, 4, 6, 7, 9, 9};
+  int n_atividades = 6;
+  atividades(s, t, n_atividades);
   
   return 0;
 }
